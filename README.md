@@ -9,6 +9,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This document explains what the R script is doing.
 
+## Note: The X_test.txt and X_train.txt files had to be zipped because they were too big to upload to GitHub. They need to be unzipped in the working directory before running the script or it won't work.
+
 ## Explanation of the run_analysis script
 Lines 5-8: The column names are read into R using the features.txt file and then converted to a vector from a data frame so it can be used to name the columns in the read.table function using the col.names argument when reading in the test and train data. This also fulfills Step 4 (appropriately label the data set with descriptive variable names).
 
