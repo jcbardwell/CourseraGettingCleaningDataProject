@@ -1,3 +1,5 @@
+library(dplyr)
+
 # Step 1: Merge the training and the test sets to create one data set
 
   # Header is not included in test and train data. Read in features.txt as a 
